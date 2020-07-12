@@ -12,7 +12,7 @@ body {
 
 h1 {
     font-family: 'Lato', sans-serif;
-    font-size: 60px;
+    font-size: 6vh;
     color: #384040;
     background-color: rgba(245, 245, 245, 0.60);
     font-weight: 300;
@@ -30,9 +30,9 @@ header {
 }
 
 .ui.button.primary {
-    font-size: 1em;
+    font-size: 2vh;
     background-image: linear-gradient(270deg, #de6262, #ffb88c);
-    margin: 4vh 1vw 0 1vh;
+    margin: 5vh 1vw 0 1vh;
 }
 
 .ui.button.primary:hover {
@@ -41,8 +41,8 @@ header {
 }
 
 .ui.button {
-    font-size: 1em;
-    margin: 1vh 1vw 0 1vh;
+    font-size: 2vh;
+    margin: 2vh 1vw 0 1vh;
     background-color: #f5f5f5;
 }
 
@@ -54,7 +54,7 @@ header {
 .down {
     color: #fff;
     display: block;
-    padding-bottom: 10px;
+    padding-top: 10vh;
     vertical-align: bottom;
 }
 
