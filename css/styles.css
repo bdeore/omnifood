@@ -1,6 +1,6 @@
 
 html {
-    font-size: 22px;
+    font-size: 35px;
 }
 
 body {
@@ -12,7 +12,7 @@ body {
 
 h1 {
     font-family: 'Lato', sans-serif;
-    font-size: 2.5rem;
+    font-size: 60px;
     color: #384040;
     background-color: rgba(245, 245, 245, 0.60);
     font-weight: 300;
@@ -30,7 +30,7 @@ header {
 }
 
 .ui.button.primary {
-    font-size: 0.75em;
+    font-size: 1em;
     background-image: linear-gradient(270deg, #de6262, #ffb88c);
     margin: 4vh 1vw 0 1vh;
 }
@@ -41,7 +41,7 @@ header {
 }
 
 .ui.button {
-    font-size: 0.75em;
+    font-size: 1em;
     margin: 1vh 1vw 0 1vh;
     background-color: #f5f5f5;
 }
