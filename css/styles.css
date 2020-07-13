@@ -3,19 +3,13 @@
     padding: 0;
 }
 
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
 html {
     font-size: 35px;
 }
 
 body {
     color: #555;
-    font-family: 'Fira Code', sans-serif;
+    font-family: Lato, sans-serif;
     font-size: 22px;
     text-rendering: optimizeLegibility;
 }
@@ -79,12 +73,48 @@ h1 {
     color: #384040;
     background-color: rgba(245, 245, 245, 0.60);
     font-weight: 300;
-    letter-spacing: 0.5vw;
+    letter-spacing: 1px;
+    word-spacing: 4px;
     padding: 10px 17px 10px 17px;
     text-transform: uppercase;
     text-rendering: optimizeLegibility;
 }
 
+h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    color: #384040;
+    font-weight: 300;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+}
+
+h2:after {
+    display: block;
+    content: " ";
+    width: 150px;
+    background-color: #e67e22;
+    height: 2px;
+    margin: 30px auto 0;
+}
+
+p {
+    line-height: 145%;
+    text-align: justify;
+}
+
+.long-copy {
+    line-height: 145%;
+    width: 60%;
+    text-align: justify;
+}
+
+.column {
+    margin-top: 70px;
+}
 
 .hero-text-box {
     padding-top: 30vmin;
@@ -116,4 +146,9 @@ h1 {
 
 #down {
     margin-top: 20vh;
+}
+
+section {
+    padding: 120px 6vw;
+    margin: auto;
 }
