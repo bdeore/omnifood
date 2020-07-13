@@ -1,3 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 
 html {
     font-size: 35px;
@@ -10,9 +20,63 @@ body {
     text-rendering: optimizeLegibility;
 }
 
+header {
+    background-image: linear-gradient(270deg, rgba(255, 175, 189, 0), rgba(255, 195, 160, 0.3)), url("../img/hero.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.nav-bar {
+    font-size: 18px;
+    list-style: none;
+    background-color: rgba(236, 240, 241, 0.8);
+}
+
+
+nav li {
+    float: right;
+    display: inline-block;
+    margin: 25px 20px 15px 10px;
+}
+
+nav a:link,
+nav a:visited {
+    font-family: Lato, sans-serif;
+    padding: 0 15px 22px 15px;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    position: relative;
+    color: #384040;
+    text-transform: uppercase;
+    border-bottom: 3px solid transparent;
+    transition: border-bottom 0.7s;
+}
+
+nav li a:hover,
+nav li a:active {
+    color: #e67e22;
+    border-bottom: 3px solid #e67e22;
+}
+
+.logo {
+    float: left;
+    height: 70px;
+    width: auto;
+    margin: 5px 0 0 4vw;
+}
+
+nav::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
 h1 {
     font-family: 'Lato', sans-serif;
-    font-size: 1.5em;
+    font-size: 2em;
     color: #384040;
     background-color: rgba(245, 245, 245, 0.60);
     font-weight: 300;
@@ -22,11 +86,10 @@ h1 {
     text-rendering: optimizeLegibility;
 }
 
-header {
-    background-image: linear-gradient(270deg, rgba(255, 175, 189, 0), rgba(255, 195, 160, 0.7)), url("../img/hero.jpg");
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
+
+.hero-text-box {
+    padding-top: 30vmin;
+    margin: 0 3vw 0 3vw;
 }
 
 .ui.button.primary {
@@ -35,36 +98,23 @@ header {
     margin: 5vh 1vw 0 1vh;
 }
 
-.ui.button.primary:hover {
-    background-image: linear-gradient(#f5f5f5, #f5f5f5);
+.ui.button.primary:hover,
+.ui.button.primary:active {
+    background-image: linear-gradient(#fdcb6e, #fdcb6e);
     color: #384040;
 }
 
 .ui.button {
     font-size: 2vh;
-    margin: 2vh 1vw 0 1vh;
-    background-color: #f5f5f5;
+    margin: 5vh 1vw 0 1vh;
+    background-color: #fff;
 }
 
 
 .ui.button:hover {
-    background-color: #fff;
+    background-color: #f5f5f5;
 }
 
-.down {
-    color: #fff;
-    display: block;
-    padding-top: 10vh;
-    vertical-align: bottom;
-}
-
-.container {
-    margin: 0;
-    padding: 0;
-}
-
-#hero-text-box {
-    text-align: center;
-    padding-top: 40vmin;
-    margin: 0 3vw 0 3vw;
+#down {
+    margin-top: 20vh;
 }
