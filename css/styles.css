@@ -14,10 +14,6 @@ body {
     text-rendering: optimizeLegibility;
 }
 
-.clearfix {
-    overflow: auto;
-}
-
 .clearfix::after {
     content: "";
     clear: both;
@@ -122,7 +118,7 @@ h2:after {
 }
 
 section {
-    padding: 120px 6vw 0 6vw;
+    padding: 120px 0 0 0;
     margin: auto;
 }
 
@@ -132,6 +128,7 @@ section ul {
 
 .boxes {
     margin-top: 60px;
+    padding: 0 6vw;
 }
 
 .long-copy {
