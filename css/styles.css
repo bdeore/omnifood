@@ -259,18 +259,18 @@ section ul {
 
 
 .cities-images img {
-    height: 240px;
-    width: auto;
-    margin: 30px 15px 0 15px;
+    height: auto;
+    width: 100%;
+    margin: 0;
 }
 
 .section-cities h3 {
-    margin: 10px 0 0 20px;
+    margin: 10px 0 0 0;
 }
 
 
 .section-cities i {
-    margin: 0 20px 10px 20px;
+    margin-bottom: 15px;
 }
 
 .section-cities p {
