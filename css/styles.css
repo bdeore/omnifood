@@ -31,7 +31,6 @@ header {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    position: fixed;
     overflow-x: hidden;
     overflow-y: auto;
 }
