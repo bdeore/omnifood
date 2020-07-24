@@ -255,3 +255,23 @@ section ul {
     width: auto;
     margin: 0 25px 20px 0;
 }
+
+
+.cities-images img {
+    height: 220px;
+    width: auto;
+    margin: 30px 20px 0 20px;
+}
+
+.section-cities h3 {
+    margin: 10px 0 0 20px;
+}
+
+
+.section-cities i {
+    margin: 0 20px 10px 20px;
+}
+
+.section-cities p {
+    display: inline;
+}
