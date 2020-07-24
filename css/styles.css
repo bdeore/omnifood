@@ -342,9 +342,8 @@ cite img {
     background-color: #fff;
     border-radius: 10px;
     width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
     margin-top: 50px;
+    margin-right: 0;
 }
 
 .plan-box div {
