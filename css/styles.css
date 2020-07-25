@@ -176,16 +176,16 @@ section ul {
 .ui.button {
     font-size: 0.85em;
     margin: 5vh 1vw 0 1vh;
-    background-color: #fff;
     color: #384040;
     font-weight: 400;
     letter-spacing: 1px;
+    background-color: #FFFFFF;
 }
 
 
 .ui.button:hover,
 .ui.button:active {
-    background-image: linear-gradient(#fdcb6e, #fdcb6e);
+    background-image: linear-gradient(270deg, #de6262, #ffb88c);
     color: #384040;
 }
 
@@ -530,7 +530,7 @@ footer ul li a i:hover {
 .header-title {
     font-weight: 900;
     font-size: 2em;
-    color: rgba(255, 255, 255, 0.54);
+    color: rgb(255, 255, 255);
     padding-top: 20px;
 
 }
