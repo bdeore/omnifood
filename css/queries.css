@@ -114,4 +114,8 @@
         color: #FFFFFF;
     }
 
+    .cities-images img {
+        margin-top: 0;
+    }
+
 }
