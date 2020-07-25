@@ -41,6 +41,11 @@
 
     .section-plans {
         padding-bottom: 40px;
+        padding-top: 60px;
+    }
+
+    .section-plans h2 {
+        margin-bottom: 20px;
     }
 
     .section-cities {
@@ -97,6 +102,15 @@
 
     #footer-last {
         padding-right: 16%;
+    }
+
+    .section-meals {
+        visibility: hidden;
+        padding-top: 0;
+    }
+
+    #divide-me {
+        color: #FFFFFF;
     }
 
 }
