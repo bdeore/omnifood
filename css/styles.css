@@ -94,11 +94,15 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 55px;
     word-spacing: 2px;
     padding: 10px 17px 10px 17px;
     color: #ffffff;
     font-weight: bold;
+}
+
+#main-button {
+    margin-top: 110px;
 }
 
 h2 {
@@ -528,8 +532,8 @@ footer ul li a i:hover {
 }
 
 .header-title {
-    font-weight: 900;
-    font-size: 2em;
+    font-weight: 700;
+    font-size: 1.8em;
     color: rgb(255, 255, 255);
     padding-top: 20px;
 
