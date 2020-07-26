@@ -173,7 +173,7 @@ section ul {
 
 .ui.button.primary:hover,
 .ui.button.primary:active {
-    background-image: linear-gradient(#fdcb6e, #fdcb6e);
+    background-color: #f3bd53;
     color: #384040;
 }
 
@@ -189,7 +189,7 @@ section ul {
 
 .ui.button:hover,
 .ui.button:active {
-    background-image: linear-gradient(270deg, #de6262, #ffb88c);
+    background-image: linear-gradient(#fdcb6e, #fdcb6e);
     color: #384040;
 }
 
@@ -461,7 +461,7 @@ cite img {
 }
 
 .plan-box button.ui.button.primary:hover {
-    background-image: linear-gradient(#fff, #fff);
+    background-image: linear-gradient(#ffd07a, #ffd075);
     color: #384040;
     border: 2px solid #fdcb6e;
 }
