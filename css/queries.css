@@ -123,3 +123,17 @@
     }
 
 }
+
+
+@media only screen and (min-width: 520px) and (max-width: 1440px ) {
+    .section-cities i {
+        margin-bottom: 12px;
+        margin-left: 15px;
+    }
+
+    .section-cities p, a {
+        font-size: 19px;
+        padding-right: 5px;
+    }
+
+}
