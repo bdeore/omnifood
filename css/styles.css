@@ -447,8 +447,9 @@ cite img {
 }
 
 .plan-box button.ui.button:hover {
-    background-image: linear-gradient(#ffd07a, #ffd075);
+    background-image: linear-gradient(#ffd07a, #ffd07a);
     color: #384040;
+    border: 2px solid #ffd07a;
 }
 
 .plan-box button.ui.button.primary {
@@ -461,9 +462,9 @@ cite img {
 }
 
 .plan-box button.ui.button.primary:hover {
-    background-image: linear-gradient(#ffd07a, #ffd075);
+    background-image: linear-gradient(#ffd07a, #ffd07a);
     color: #384040;
-    border: 2px solid #fdcb6e;
+    border: 2px solid #ffd07a;
 }
 
 footer {
