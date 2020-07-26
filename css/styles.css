@@ -447,7 +447,7 @@ cite img {
 }
 
 .plan-box button.ui.button:hover {
-    background-image: linear-gradient(#fdcb6e, #fdcb6e);
+    background-image: linear-gradient(#ffd07a, #ffd075);
     color: #384040;
 }
 
