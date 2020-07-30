@@ -523,28 +523,6 @@ footer ul li a i:hover {
     padding: 40px 0 15px 0;
 }
 
-.custom-shape-divider-bottom-1595671451 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1595671451 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 101px;
-    transform: rotateY(180deg);
-}
-
-.custom-shape-divider-bottom-1595671451 .shape-fill {
-    fill: #FFFFFF;
-}
-
 .header-title {
     font-family: 'Lobster', cursive;
     font-size: 2.5em;
